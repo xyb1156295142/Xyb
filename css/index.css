@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0px;
+	margin:0px;
+	font-size:12px;
+	font-family:"微软雅黑";
+}
+body{
+	width:100%;
+	margin:0 auto;
+	font-size:14px;
+	}
+a{
+	text-decoration:none;
+	}
+li{
+	list-style-type:none;
+}
+.adv {
+			width: 100%;
+			height: 20px;
+			background: #444444;
+			}
+.adv>span {
+		float:left;
+	}
+.menu{
+	width:100%;
+	height:45px;
+	background:#000 repeat-x;
+}
+.menu>ul>li{
+	float:left;
+	width:12.5%;
+	height:45px;
+	text-align:center;
+	line-height:45px;
+}
+.menu>ul>li:last-child{
+	background:none;
+}
+.menu>ul>li>a{
+	display:block;
+	width:125px;
+	height:45px;
+	font-size:14px;
+	color:#fff;
+}
+.menu>ul>li>a:hover,.header>ul>li>a;hover{
+	color:#fd8304;
+	text-decoration:underline;
+}
+.footer {
+		margin: auto;
+		width: 70%;
+		height: 445px;
+}
+.foot_top { 
+			font-size: 12px;
+			line-height: 50px;
+			color: gray;
+			height: 50px;
+			border-bottom: 1px solid #F5F5F5;
+}
+.foot_list {
+		    margin-top: 30px;
+			width: 100%;
+			height: 200px;
+}
+.l_list {
+		 width: 15%;
+		 height: 100%;
+	     float:left;		 		 
+}
+
+.1_list ul li{
+			   margin-top: 3px;
+			   font-size: 12px;
+			   list-style: none;
+			   color:#707070;
+	
+}
+.l_list ul li a{
+			   margin-top: 3px;
+			   font-size: 12px;
+			   list-style: none;
+			   color: #707070;
+			   padding-left:80px;
+}
+.l_list ul li:hover {
+					 /*cursor: pointer;*/
+				     text-decoration: none;
+				     color:blue;
+					 padding-bottom:30px;
+					 
+}
+.l_list .l_title {
+				  font-size:15px;
+                  font-weight:600;
+				  color: black;
+                  padding-left:80px;
+				 
+				  
+}
+.l_list .l_title:hover {
+			cursor: "";
+			text-decoration: none;
+			color:black;
+}
+
+			
+.bottom {
+		line-height: 10px;
+		color: #707070;
+		font-size: 10px;
+		padding-left:80px;
+}
+.bottom>a{
+	float:right;
+	padding-right:550px;
+}
+.p1{
+	width:100%;
+	height:690px;
+	background:url(../image/p3.jpg) no-repeat;
+	background-size:100%;
+	}
+.p1>ul{
+	padding-top:300px;
+	padding-left:50px;
+		}
+.p1>p{
+	padding-left:50px;
+	padding-top:50px;}
+.p2{
+	width:100%;
+	height:800px;
+	background:url(../image/b2.jpg) no-repeat;
+	background-size:100%;
+	}
+.p2>ul{
+	padding-top:200px;
+	padding-left:250px;
+	}
+.p2>p{
+	padding-left:250px;
+	padding-top:50px;}
+.right_img table tr td:hover{
+	transition:all 2s;
+	transform:scale(1.2);
+}
+
